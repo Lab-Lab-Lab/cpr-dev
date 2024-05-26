@@ -1,6 +1,6 @@
 #!/bin/bash
-git clone https://github.com/Lab-Lab-Lab/CPR-Music-Backend.git 
-git clone https://github.com/Lab-Lab-Lab/CPR-Music.git 
+git clone https://github.com/JMU-CIME/CPR-Music-Backend.git 
+git clone https://github.com/JMU-CIME/CPR-Music.git 
 cd CPR-Music-Backend 
 git checkout version-updates
 pip install -r requirements/local.txt --no-input 
