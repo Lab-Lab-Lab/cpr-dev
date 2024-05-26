@@ -53,6 +53,7 @@
 
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": {
+    "repos": "git clone https://github.com/Lab-Lab-Lab/CPR-Music-Backend.git && git clone https://github.com/Lab-Lab-Lab/CPR-Music.git",
     "backend prep": "cd CPR-Music-Backend && pip install -r CPR-Music/requirements/local.txt --no-input && python manage.py migrate && python manage.py runserver & && cd ..",
     "frontend prep": "cd CPR-Music && npm ci && npm run dev & && cd .."
   }

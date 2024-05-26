@@ -8,6 +8,7 @@ I'm unsure what info will help do this well, but here's where i'm looking first:
 2. [vscode's doc about "remote python development" (they made it for flask, which isn't what we're doing, but it shows port forwarding which we will probably need)](https://github.com/microsoft/vscode-remote-try-python/blob/main/.devcontainer/devcontainer.json)
 3. [some person's django dev codespace](https://github.com/github/codespaces-django/tree/main)
 4. [someone's codespace for django with postgres](https://til.simonwillison.net/github/django-postgresql-codespaces)
+5. [possible example?](https://github.com/codespaces-contrib/codespaces-multi-repo/tree/main)
 
 ## Questions
 1. should we setup backend that's deployed somewhere (e.g. dev.musiccpr.org or similar) to accept requests from frontend running locally and/or in codespace?
