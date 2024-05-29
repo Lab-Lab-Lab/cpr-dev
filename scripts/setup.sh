@@ -13,8 +13,8 @@ cd ..
 cd CPR-Music 
 git checkout version-updates
 npm ci 
-echo "NEXT_PUBLIC_BACKEND_HOST=\"https://$CODESPACE_NAME-8000.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN\"" > .env.local
+echo "NEXT_PUBLIC_BACKEND_HOST=\"https://$CODESPACE_NAME-8000.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN\"
+NEXTAUTH_URL=\"https://$CODESPACE_NAME-3000.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN\"
+" > .env.local
 # npm run dev & #put in postAttach instead
 cd ..
-
-
