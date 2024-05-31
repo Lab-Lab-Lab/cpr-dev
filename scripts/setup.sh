@@ -5,6 +5,7 @@ cd CPR-Music-Backend
 # probably will 
 git checkout version-updates
 cp .env.local .env 
+echo "CORS_ALLOWED_ORIGIN_REGEXES=^http://localhost:3000$,^https://$CODESPACE_NAME-3000.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN$"  >> .env
 pip install -r requirements/local.txt --no-input 
 python manage.py migrate 
 python manage.py createsuperuser --no-input
