@@ -18,3 +18,4 @@ NEXTAUTH_URL=\"https://$CODESPACE_NAME-3000.$GITHUB_CODESPACES_PORT_FORWARDING_D
 " > .env.local
 # npm run dev & #put in postAttach instead
 cd ..
+gh codespace ports -c $CODESPACE_NAME visibility 3000:public 8000:public
