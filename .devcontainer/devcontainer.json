@@ -5,7 +5,9 @@
   "image": "nikolaik/python-nodejs:python3.12-nodejs22",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
-  // "features": {},
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {} // https://github.com/cli/cli?tab=readme-ov-file#codespaces
+  },
 
   // https://github.com/github/codespaces-django/blob/main/.devcontainer/devcontainer.json#L24-L30
   "portsAttributes": {
