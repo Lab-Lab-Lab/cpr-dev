@@ -47,25 +47,13 @@
         "Lab-Lab-Lab/CPR-Music": {
           "permissions": {
             "issues": "write",
-            "contents": "read"
+            "contents": "write"
           }
         },
         "Lab-Lab-Lab/CPR-Music-Backend": {
           "permissions": {
             "issues": "write",
-            "contents": "read"
-          }
-        },
-        "JMU-CIME/CPR-Music": {
-          "permissions": {
-            "issues": "write",
-            "contents": "read"
-          }
-        },
-        "JMU-CIME/CPR-Music-Backend": {
-          "permissions": {
-            "issues": "write",
-            "contents": "read"
+            "contents": "write"
           }
         }
       },
