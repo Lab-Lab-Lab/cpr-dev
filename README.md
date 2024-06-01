@@ -1,6 +1,15 @@
 # cpr-dev
 Codespace for development of MusicCPR (unless it ends up too expensive or too slow)
 
+## Setup
+1. ensure that you have a fork of both the frontend repository and the backend repositories in **your github account**:
+    1. [frontend](https://github.com/Lab-Lab-Lab/CPR-Music)
+        1. so you should have a repo at _almost_**EXACTLY** this url`https://github.com/YOUR_GITHUB_USER_NAME/CPR-Music`
+    1. [backend](https://github.com/Lab-Lab-Lab/CPR-Music-Backend)
+        1. so you should have a repo at _almost_**EXACTLY** this url`https://github.com/YOUR_GITHUB_USER_NAME/CPR-Music-Backend`
+1. click the green "Use this template" button on this repository to create a new repository for your own development on this project, but create it also in this organization (`Lab-Lab-Lab`, so that you'll have $free access to the codespace)
+1. on the resulting 
+
 ## Resources
 
 I'm unsure what info will help do this well, but here's where i'm looking first:

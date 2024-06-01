@@ -1,6 +1,6 @@
 #!/bin/bash
-git clone https://github.com/JMU-CIME/CPR-Music-Backend.git 
-git clone https://github.com/JMU-CIME/CPR-Music.git 
+git clone https://github.com/$GITHUB_USER/CPR-Music-Backend.git 
+git clone https://github.com/$GITHUB_USER/CPR-Music.git 
 cd CPR-Music-Backend 
 # probably will 
 git checkout version-updates

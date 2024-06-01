@@ -44,28 +44,16 @@
     },
     "codespaces": {
       "repositories": {
-        "Lab-Lab-Lab/CPR-Music": {
+        "${GITHUB_USER}/CPR-Music": {
           "permissions": {
             "issues": "write",
-            "contents": "read"
+            "contents": "write"
           }
         },
-        "Lab-Lab-Lab/CPR-Music-Backend": {
+        "${GITHUB_USER}/CPR-Music-Backend": {
           "permissions": {
             "issues": "write",
-            "contents": "read"
-          }
-        },
-        "JMU-CIME/CPR-Music": {
-          "permissions": {
-            "issues": "write",
-            "contents": "read"
-          }
-        },
-        "JMU-CIME/CPR-Music-Backend": {
-          "permissions": {
-            "issues": "write",
-            "contents": "read"
+            "contents": "write"
           }
         }
       },
