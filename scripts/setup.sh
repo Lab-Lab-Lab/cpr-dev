@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "setup.sh 01" >> /var/log/cpr-dev.log
-git clone https://github.com/Lab-Lab-Lab/CPR-Music-Backend-hcientist.git CPR-Music-Backend
+git clone https://github.com/Lab-Lab-Lab/CPR-Music-Backend.git CPR-Music-Backend
 echo "setup.sh 02" >> /var/log/cpr-dev.log
-git clone https://github.com/Lab-Lab-Lab/CPR-Music-hcientist.git CPR-Music
+git clone https://github.com/Lab-Lab-Lab/CPR-Music.git CPR-Music
 echo "setup.sh 03" >> /var/log/cpr-dev.log
 cd CPR-Music-Backend 
 echo "setup.sh 04" >> /var/log/cpr-dev.log
