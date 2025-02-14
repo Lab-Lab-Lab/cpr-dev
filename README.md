@@ -34,6 +34,10 @@ Dev Container config for development of MusicCPR to support simpler onboarding e
 1. **using its HTTPS url** clone your `cpr-dev-USERNAME` repository to your local machine 
 1. press the do everything hotkey <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (or on macOS <kbd>command</kbd>+<kbd>shift</kbd>+<kbd>P</kbd>), type `reopen`, and then select `Dev Containers: Reopen in Container`
 
+## Troubleshooting
+1. If the VS Code source control feature does not work, search for the the built in GIT extension, disable it, and reenable it like it says in this article.
+https://stackoverflow.com/a/70296872/1449799
+
 
 ## Resources
 
